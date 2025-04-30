@@ -25,7 +25,7 @@ def emotion_detector(text_to_analyse):
     dominant_score = emotion_set[dominant_emotion]
     
     #Inserting a new key-value to the dictionary
-    emotion_set['dominant_emotion'] = dominant_score
+    emotion_set['dominant_emotion'] = dominant_emotion
 
     return emotion_set
 
